@@ -1,0 +1,11 @@
+      <section id="late" aria-labelledby="h-late">
+        <p class="caps section-num">Section 3</p>
+        <h2 id="h-late">Why a wallet verified after a proposal opens cannot vote on it</h2>
+        <p class="lead">Because the platform checks your wallet as it was at the snapshot block, and at that block the wallet was not enabled yet.</p>
+        <p>Enabling a wallet is a transaction on Redbelly Network, recorded in a block. A wallet enabled after the snapshot block has no access record at that block, so the platform gives it 0 voting power on that proposal. The list of wallets that can vote is fixed when voting starts.</p>
+        <p>The wallet is not locked out. It can vote on every proposal published after it was enabled.</p>
+        <div class="evidence">
+          <p class="caps evidence__title"><span class="dot dot--ok" aria-hidden="true"></span>Tested on 22 October 2026</p>
+          <p>Four wallets enabled between 17 and 21 October 2026 show as verified on the platform today, yet each has 0 voting power on the Proposal Resubmission Policy, whose snapshot is from 30 September. The Redbelly access contract shows them as not enabled at block <span class="mono">3208192</span>.</p>
+        </div>
+      </section>

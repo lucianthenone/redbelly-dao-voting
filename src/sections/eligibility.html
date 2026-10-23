@@ -1,0 +1,19 @@
+      <section id="eligibility" aria-labelledby="h-eligibility">
+        <p class="caps section-num">Section 2</p>
+        <h2 id="h-eligibility">When eligibility is checked</h2>
+        <p class="lead">Once per proposal, at its snapshot. The snapshot is taken the moment the proposal is published.</p>
+        <ul class="plain">
+          <li>When a proposal is published, the platform records the latest Redbelly block. This is the <strong>snapshot block</strong>. Voting opens at the same time.</li>
+          <li>When you connect, the platform checks whether your wallet was enabled at that block. On proposals weighted by RBNT, it also reads your RBNT balance at that block.</li>
+          <li>The result is fixed until the proposal closes. Changes after the snapshot, such as enabling a wallet or buying RBNT, do not count for that proposal.</li>
+          <li>Each proposal's <span class="ui">Details</span> tab shows its snapshot block. The Proposal Resubmission Policy (<span class="mono">#f832b</span>) uses block <span class="mono">3208192</span>, produced at <span class="mono">06:47 UTC</span> on 30&nbsp;September&nbsp;2026. Voting opened at <span class="mono">06:49 UTC</span>.</li>
+        </ul>
+
+        <figure class="figure" id="figure-2">
+          <div class="figure__frame" tabindex="0" aria-label="Figure 2, scrollable">
+<!-- diagram:02-snapshot-timeline -->
+<!-- /diagram:02-snapshot-timeline -->
+          </div>
+          <figcaption><span class="caps">Figure 2</span> Eligibility is read at the snapshot block. Wallet A was enabled before it and can vote. Wallet B was enabled after it and cannot vote on this proposal. <span class="figure__links">Open <a href="diagrams/02-snapshot-timeline.svg">SVG</a> <a href="diagrams/02-snapshot-timeline.png">PNG</a></span></figcaption>
+        </figure>
+      </section>

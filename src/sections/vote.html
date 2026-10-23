@@ -1,0 +1,27 @@
+      <section id="vote" aria-labelledby="h-vote">
+        <p class="caps section-num">Section 1</p>
+        <h2 id="h-vote">How to vote, step by step</h2>
+        <p class="lead">Once your wallet is enabled, voting takes about a minute. The steps use the button names on the platform.</p>
+
+        <figure class="figure" id="figure-1">
+          <div class="figure__frame" tabindex="0" aria-label="Figure 1, scrollable">
+<!-- diagram:01-verification-to-vote -->
+<!-- /diagram:01-verification-to-vote -->
+          </div>
+          <figcaption><span class="caps">Figure 1</span> From verification to a recorded vote. Steps 1 to 3 happen once. Steps 4 to 8 happen for every proposal. <span class="figure__links">Open <a href="diagrams/01-verification-to-vote.svg">SVG</a> <a href="diagrams/01-verification-to-vote.png">PNG</a></span></figcaption>
+        </figure>
+
+        <ol class="steps">
+          <li><strong>Connect.</strong> Open <a href="https://redbelly-governance.vercel.app/" rel="noopener">redbelly-governance.vercel.app</a>, press <span class="ui">Connect wallet</span> and choose <span class="ui">Browser wallet</span> or <span class="ui">WalletConnect</span>. On a phone, use WalletConnect or your wallet app's own browser.</li>
+          <li><strong>Switch network if asked.</strong> If you see <span class="ui">Switch to Redbelly Network</span>, press it. The platform only works on Redbelly Network, chain ID <span class="mono">151</span>.</li>
+          <li><strong>Open a proposal.</strong> Under <span class="ui">Proposals</span>, pick an open one. The line under its title shows how votes are counted, for example <span class="ui">One verified address, one vote</span>.</li>
+          <li><strong>Check you are eligible.</strong> The <span class="ui">Cast your vote</span> panel should say <span class="ui">Eligible to vote</span>. Any other message is explained in <a href="troubleshoot.html">Why can't I vote?</a></li>
+          <li><strong>Choose.</strong> Pick your option. Some proposals let you tick several options, split your power or rank them, and the panel shows how. You can add a reason. It is public.</li>
+          <li><strong>Review and sign.</strong> Press <span class="ui">Review and sign</span>, check your choice, then press <span class="ui">Sign in wallet</span> and approve in your wallet. This is a signed message, not a transaction: no gas, and nothing can move. The <a href="https://redbelly-governance.vercel.app/safety" rel="noopener">Wallet safety</a> page shows exactly what you sign.</li>
+          <li><strong>Done.</strong> The panel shows <span class="ui">Vote recorded</span>. A <span class="ui">View IPFS receipt</span> link appears when the receipt is published. Your vote counts even before it appears.</li>
+        </ol>
+        <div class="callout">
+          <h3>Changing your vote</h3>
+          <p>Until voting closes, press <span class="ui">Change vote</span> and sign again. Only the latest ballot from each wallet counts.</p>
+        </div>
+      </section>

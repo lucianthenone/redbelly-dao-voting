@@ -1,0 +1,22 @@
+{
+  "name": "dao-voting-guide-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Build scripts for the How DAO Voting Works Now guide: diagrams, PDF, Word file and checks.",
+  "type": "module",
+  "scripts": {
+    "diagrams": "node build-diagrams.mjs && node build-pages.mjs",
+    "pages": "node build-pages.mjs",
+    "og": "node build-og.mjs",
+    "pdf": "node build-pdf.mjs",
+    "docx": "node build-docx.mjs",
+    "zip": "node build-zip.mjs",
+    "check": "node check.mjs",
+    "build": "node build-diagrams.mjs && node build-pages.mjs && node build-og.mjs && node build-pdf.mjs && node build-docx.mjs && node build-zip.mjs && node check.mjs"
+  },
+  "devDependencies": {
+    "docx": "9.7.1",
+    "jszip": "3.10.2",
+    "playwright": "1.56.1"
+  }
+}

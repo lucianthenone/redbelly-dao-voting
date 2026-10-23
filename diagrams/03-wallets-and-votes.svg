@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 548" width="720" height="548" role="img" aria-labelledby="03-title 03-desc" class="diagram"><title id="03-title">One verification, several wallets</title><desc id="03-desc">Diagram. One verified identity at Redbelly Access can link up to 10 wallets. On a proposal that gives one vote per verified address, each wallet is counted on its own. Wallet 1 and wallet 2 were enabled before the snapshot, so each has 1 vote. Wallet 3 was enabled after the snapshot, so it has 0 votes on this proposal. Wallet 4 is linked but not enabled, so it has 0 votes. In total these wallets can cast 2 votes on this proposal. The platform does not group wallets by person.</desc><style>.dg-bg{fill:#EDF1F4}.dg-card{fill:#FFFFFF;stroke:#C3CDD4}.dg-steel{fill:#DDE6ED;stroke:#C3CDD4}.dg-zone{fill:none;stroke:#8FA1AD}.dg-band{fill:#DDE6ED}.dg-ink{fill:#0F1A22}.dg-dim{fill:#394853}.dg-muted{fill:#596975}.dg-accent{fill:#B3272A}.dg-f-brand{fill:#EF5350}.dg-f-ok{fill:#15803D}.dg-f-no{fill:#B3261E}.dg-f-muted{fill:#596975}.dg-s-line{stroke:#596975}.dg-s-brand{stroke:#EF5350}.dg-s-ok{stroke:#15803D}.dg-s-no{stroke:#B3261E}.dg-s-muted{stroke:#596975}.dg-s-edge{stroke:#C3CDD4}.dg-sans{font-family:'Be Vietnam Pro', ui-sans-serif, system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif}.dg-mono{font-family:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace}</style><defs><marker id="03-arrow-line" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-f-muted"/></marker><marker id="03-arrow-brand" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-f-brand"/></marker><marker id="03-arrow-ok" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-f-ok"/></marker><marker id="03-arrow-no" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-f-no"/></marker><marker id="03-arrow-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" class="dg-f-muted"/></marker></defs>
+<rect class="dg-bg" width="720" height="548"/>
+<text x="28" y="38" class="dg-accent dg-sans" font-size="13" font-weight="700" letter-spacing="1.3">ONE VERIFICATION, SEVERAL WALLETS</text>
+<text x="28" y="62" class="dg-dim dg-sans" font-size="15" font-weight="400">Example: one proposal that gives one vote per verified address.</text>
+<rect class="dg-steel" x="28" y="176" width="196" height="132" rx="4" stroke-width="1"/>
+<text x="44" y="202" class="dg-accent dg-mono" font-size="12" font-weight="600" letter-spacing="0.6">REDBELLY ACCESS</text>
+<text x="44" y="226" class="dg-ink dg-sans" font-size="16" font-weight="600">One verified</text>
+<text x="44" y="246" class="dg-ink dg-sans" font-size="16" font-weight="600">identity</text>
+<text x="44" y="270" class="dg-dim dg-sans" font-size="14" font-weight="400">Up to 10 wallets</text>
+<text x="44" y="290" class="dg-dim dg-sans" font-size="14" font-weight="400">can be linked</text>
+<rect class="dg-card dg-s-ok" x="284" y="96" width="240" height="68" rx="4" stroke-width="1.75"/>
+<text x="300" y="125" class="dg-ink dg-sans" font-size="16" font-weight="600">Wallet 1</text>
+<text x="300" y="147" class="dg-dim dg-sans" font-size="14" font-weight="400">Enabled before snapshot</text>
+<circle class="dg-f-ok" cx="556" cy="126" r="5"/>
+<text x="568" y="131" class="dg-f-ok dg-mono" font-size="14" font-weight="600" letter-spacing="0.5">1 VOTE</text>
+<line class="dg-s-edge" x1="524" y1="130" x2="544" y2="130" stroke-width="1.25"/>
+<rect class="dg-card dg-s-ok" x="284" y="180" width="240" height="68" rx="4" stroke-width="1.75"/>
+<text x="300" y="209" class="dg-ink dg-sans" font-size="16" font-weight="600">Wallet 2</text>
+<text x="300" y="231" class="dg-dim dg-sans" font-size="14" font-weight="400">Enabled before snapshot</text>
+<circle class="dg-f-ok" cx="556" cy="210" r="5"/>
+<text x="568" y="215" class="dg-f-ok dg-mono" font-size="14" font-weight="600" letter-spacing="0.5">1 VOTE</text>
+<line class="dg-s-edge" x1="524" y1="214" x2="544" y2="214" stroke-width="1.25"/>
+<rect class="dg-card dg-s-edge" x="284" y="264" width="240" height="68" rx="4" stroke-width="1"/>
+<text x="300" y="293" class="dg-ink dg-sans" font-size="16" font-weight="600">Wallet 3</text>
+<text x="300" y="315" class="dg-dim dg-sans" font-size="14" font-weight="400">Enabled after snapshot</text>
+<circle class="dg-f-no" cx="556" cy="294" r="5"/>
+<text x="568" y="299" class="dg-f-no dg-mono" font-size="14" font-weight="600" letter-spacing="0.5">0 VOTES</text>
+<line class="dg-s-edge" x1="524" y1="298" x2="544" y2="298" stroke-width="1.25"/>
+<rect class="dg-card dg-s-edge" x="284" y="348" width="240" height="68" rx="4" stroke-width="1"/>
+<text x="300" y="377" class="dg-ink dg-sans" font-size="16" font-weight="600">Wallet 4</text>
+<text x="300" y="399" class="dg-dim dg-sans" font-size="14" font-weight="400">Linked, not enabled</text>
+<circle class="dg-f-no" cx="556" cy="378" r="5"/>
+<text x="568" y="383" class="dg-f-no dg-mono" font-size="14" font-weight="600" letter-spacing="0.5">0 VOTES</text>
+<line class="dg-s-edge" x1="524" y1="382" x2="544" y2="382" stroke-width="1.25"/>
+<polyline class="dg-s-line" points="224,242 254,242 254,130 284,130" fill="none" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline class="dg-s-line" points="224,242 254,242 254,214 284,214" fill="none" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline class="dg-s-line" points="224,242 254,242 254,298 284,298" fill="none" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline class="dg-s-line" points="224,242 254,242 254,382 284,382" fill="none" stroke-width="1.5" stroke-linejoin="round"/>
+<rect class="dg-steel" x="28" y="432" width="664" height="56" rx="8"/>
+<text x="48" y="456" class="dg-ink dg-sans" font-size="15" font-weight="600">Total on this proposal: 2 votes, one from each eligible wallet.</text>
+<text x="48" y="476" class="dg-dim dg-sans" font-size="13" font-weight="400">The platform counts wallets. It does not group them by person.</text>
+<line class="dg-s-edge" x1="28" y1="512" x2="692" y2="512" stroke-width="1"/>
+<text x="28" y="532" class="dg-muted dg-mono" font-size="11" font-weight="500" letter-spacing="0.6">LAST VERIFIED 22 OCT 2026</text>
+<text x="692" y="532" class="dg-muted dg-mono" font-size="11" font-weight="400" text-anchor="end">redbelly-governance.vercel.app</text>
+</svg>

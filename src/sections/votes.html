@@ -1,0 +1,36 @@
+      <section id="votes" aria-labelledby="h-votes">
+        <p class="caps section-num">Section 4</p>
+        <h2 id="h-votes">How many votes you get</h2>
+        <p class="lead">One vote per verified wallet, on proposals that count one verified address, one vote. The DAO's three most recent proposals, from 2 and 30 September 2026, were counted this way.</p>
+        <p>Each proposal sets its own voting power. It is shown under the title and in the <span class="ui">Details</span> tab, next to <span class="ui">Strategy</span>.</p>
+        <div class="table-wrap" tabindex="0">
+          <table>
+            <caption class="sr-only">Voting power by proposal setting</caption>
+            <thead>
+              <tr><th scope="col">The proposal shows</th><th scope="col">Your voting power</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><span class="ui">One verified address, one vote</span>, or Strategy <span class="mono">verified-identity</span></td><td><strong>1</strong> for each eligible wallet, whatever it holds</td></tr>
+              <tr><td>Strategy <span class="mono">native-balance</span> (RBNT balance)</td><td>The RBNT the wallet held at the snapshot block</td></tr>
+              <tr><td>Strategy <span class="mono">erc20-balance</span> (token balance)</td><td>The wallet's balance of the named token at the snapshot block</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>In every case the wallet must also have been enabled at the snapshot, because every proposal published today is open to verified wallets only.</p>
+
+        <h3>One vote per verified account</h3>
+        <p>Redbelly Access calls each wallet address an account. Each verified account gets one ballot per proposal. A second ballot from the same wallet replaces the first.</p>
+
+        <h3>Several wallets under one verification</h3>
+        <p>Redbelly Access lets one verified person link up to 10 wallets, with <span class="ui">Add another account</span> or <span class="ui">Link another wallet</span>. Each linked wallet is enabled separately.</p>
+        <p>The platform does not group wallets by person. Each wallet that was enabled before the snapshot is a separate verified account with one vote. A wallet enabled later, or never enabled, has no vote on that proposal. The platform states this itself: verified addresses are not necessarily unique people.</p>
+        <p>Some proposals ask members to vote from one wallet only. That request comes from the proposal's author, and the platform does not enforce it.</p>
+
+        <figure class="figure" id="figure-3">
+          <div class="figure__frame" tabindex="0" aria-label="Figure 3, scrollable">
+<!-- diagram:03-wallets-and-votes -->
+<!-- /diagram:03-wallets-and-votes -->
+          </div>
+          <figcaption><span class="caps">Figure 3</span> One verification, four linked wallets, one proposal. Only the wallets enabled before the snapshot can vote, and each counts once. <span class="figure__links">Open <a href="diagrams/03-wallets-and-votes.svg">SVG</a> <a href="diagrams/03-wallets-and-votes.png">PNG</a></span></figcaption>
+        </figure>
+      </section>
